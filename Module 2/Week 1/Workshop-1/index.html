@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="logocontent">
+            <img class="logo"
+                src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31">
+        </div>
+    </div>
+
+    <div class="bodycontent">
+        <div style="display:flex; flex-direction: row;;">
+            <div class="bgd">
+                <img id="bodyimg"
+                    src="https://www.transparentpng.com/thumb/bill-gates/background-bill-gates-transparent-8.png">
+            </div>
+            <div class="bodyseperator">
+                <h2 class="bodytext">Bill Gates</h2>
+                <h3 class="bodyh3">Co-Founder of Microsoft</h3>
+                <script src="./assets/js/learnmore.js"></script>
+                <button class="bodybtn" onclick="visitpage()">Learn More</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="container">
+        <div class="box">
+            <div class="name_job">Net Worth</div>
+            <p> William Henry Gates III is a co-founder of Microsoft with a net worth of 100.3 billion USD which places
+                him on 5 at the richest list</p>
+        </div>
+        <div class="box">
+            <div class="name_job">About Bill</div>
+            <p> William Henry Gates III is an American business magnate, software developer, investor, author, and
+                philanthropist. He is a co-founder of Microsoft, along with his late childhood friend Paul Allen.</p>
+        </div>
+        <div class="box">
+            <div class="name_job">Foundation</div>
+            <p> The Bill & Melinda Gates Foundation, a merging of the William H. Gates Foundation and the Gates Learning
+                Foundation, is an American private foundation founded by Bill Gates and Melinda French Gates.</p>
+        </div>
+    </div>
+
+
+    </head>
+
+    <body>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <img src="https://cdn.thegentlemansjournal.com/wp-content/uploads/2015/10/bill-gates16.jpg"
+                    style="width:100%; height:450px">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="https://1.bp.blogspot.com/-sbWOvZdaqjE/XmvJfQVoDwI/AAAAAAADwDo/P2I9S7q1-qgqLUgvv3ssQbTnP5rwgSdfgCLcBGAsYHQ/s1600/young-bill-gates-4.jpg"
+                    style="width:100%; height:450px">
+
+            </div>
+
+            <div class="mySlides fade">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Bill_Gates_2017_%28cropped%29.jpg"
+                    style="width:100%; height:450px;">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+
+            <script src="./assets/js/slider.js"></script>
+        </div>
+
+
+
+
+    </body>
+
+</html>

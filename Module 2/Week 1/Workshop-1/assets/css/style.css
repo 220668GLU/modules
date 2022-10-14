@@ -1,0 +1,266 @@
+.header {
+    display: flex;
+    width: auto;
+    height: 50px;
+    justify-content: center;
+}
+
+.headercontent {
+    width: auto;
+    height: auto;
+}
+
+.logocontent {
+    width: auto;
+    height: auto;
+}
+
+.logo {
+    width: 108px;
+    margin-top: 10px;
+}
+
+.bodycontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    background-color: white;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-Icon-Bounce-Word-Merch:VP4-1399x600");
+    height: 500px;
+    width: 100%;
+    clear: left;
+    align-items: center;
+}
+
+.bodyseperator {
+    margin-top: 120px;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.bodytext {
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.bodyh3 {
+    color: rgb(0, 0, 0);
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.bodybtn {
+    margin-top: 14px;
+    background-color: #0067b8;
+    color: #fff;
+    border: #0067b8 0px;
+    border-radius: .125rem;
+    font-size: 1rem;
+    width: 120px;
+    height: 40px;
+}
+
+.bgd {
+    clear: right;
+    flex-direction: row;
+    display: flex;
+    float: right;
+}
+
+.bodybtn:hover {
+    margin-top: 14px;
+    background-color: #0582e2;
+    color: #fff;
+    border: #0067b8 0px;
+    border-radius: .200rem;
+    font-size: 1rem;
+    width: 120px;
+    height: 40px;
+}
+
+#bodyimg {
+    float: right;
+    margin-bottom: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+    background: #8e44ad;
+    color: #fff;
+}
+
+.container {
+    margin-left: 170px;
+    place-items: center;
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.container .box {
+    width: calc(33% - 10px);
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-M365-Icon-Bounce-Word-Merch:VP4-1399x600");
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+
+.box .quote i {
+    margin-top: 10px;
+    font-size: 45px;
+    color: #17c0eb
+}
+
+.container .box .image {
+    margin: 10px 0;
+    height: 150px;
+    width: 150px;
+    background: #8e44ad;
+    padding: 3px;
+    border-radius: 50%;
+}
+
+.box .image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+
+.box p {
+    text-align: justify;
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.box .name_job {
+    margin: 10px 0 3px 0;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.rating i {
+    font-size: 18px;
+    color: #8e44ad;
+    margin-bottom: 5px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bfdffb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #a5d1f7;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}

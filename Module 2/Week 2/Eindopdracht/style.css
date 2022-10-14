@@ -1,0 +1,567 @@
+body {
+    background-color: rgb(32, 32, 32);
+}
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+    color: white;
+}
+
+img {
+  width: 60px;
+  height: 64px;
+  margin: 70px 40px;
+}
+
+p {
+  font-size: 22px;
+}
+
+section {
+    clear: right;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 10px auto;
+    padding: 10px 40px;
+    width: 60%;
+}
+
+
+.Kaart:hover {
+    transform: scale(1.2);
+    margin-top: -100px; 
+    z-index:  20;
+    
+}
+
+.grid {
+    width: 1170px;
+    margin: 0 auto;
+  }
+  
+  .list {
+    height: 652px;
+    position: relative;
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .Kaart{
+    transition: all 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    perspective: 1000;
+    -ms-transform: perspective(1000px);
+    -moz-transform: perspective(1000px);
+    -ms-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    float: left;
+    width: 222px;
+    height: 311px;
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 30px 0 15px 15px;
+  }
+  .Kaart:nth-child(5n) {
+    margin-right: 0;
+  }
+  .Kaart.ani0 {
+    right: 0px;
+    bottom: 0px;
+    z-index: 30;
+  }
+  .Kaart.ani1 {
+    right: 110px;
+    bottom: 0px;
+    z-index: 29;
+  }
+  .Kaart.ani2 {
+    right: 180px;
+    bottom: 0px;
+    z-index: 28;
+  }
+  .Kaart.ani3 {
+    right: 250px;
+    bottom: 0px;
+    z-index: 27;
+  }
+  .Kaart.ani4 {
+    right: 320px;
+    bottom: 0px;
+    z-index: 26;
+  }
+  .Kaart.ani5 {
+    right: 390px;
+    bottom: 0;
+    z-index: 25;
+  }
+  .Kaart.ani6 {
+    right: 460px;
+    bottom: 0;
+    z-index: 24;
+  }
+  .Kaart.ani7 {
+    right: 530px;
+    bottom: 0;
+    z-index: 23;
+  }
+  .Kaart.ani8 {
+    right: 600px;
+    bottom: 0;
+    z-index: 22;
+  }
+
+  .Kaart.ani9 {
+    right: 670px;
+    bottom: 0px;
+    z-index: 21;
+  }
+
+  .Kaart.ani10{
+    right: 740px;
+    bottom: 0;
+    z-index: 20;
+  }
+
+  .Kaart.ani11{
+    right: 810px;
+    bottom: 0;
+    z-index: 19;
+  }
+
+  .Kaart.ani12{
+    right: 880px;
+    bottom: 0;
+    z-index: 18;
+  }
+
+  .Kaart.ani13 {
+    right: 0px;
+    bottom: 0px;
+    z-index: 29;
+  }
+  .Kaart.ani14 {
+    right: 110px;
+    bottom: 0px;
+    z-index: 28;
+  }
+  .Kaart.ani15 {
+    right: 180px;
+    bottom: 0px;
+    z-index: 27;
+  }
+  .Kaart.ani16 {
+    right: 250px;
+    bottom: 0px;
+    z-index: 26;
+  }
+  .Kaart.ani17 {
+    right: 320px;
+    bottom: 0;
+    z-index: 25;
+  }
+  .Kaart.ani18 {
+    right: 390px;
+    bottom: 0;
+    z-index: 24;
+  }
+  .Kaart.ani19 {
+    right: 460px;
+    bottom: 0;
+    z-index: 23;
+  }
+  .Kaart.ani20 {
+    right: 530px;
+    bottom: 0;
+    z-index: 22;
+  }
+
+  .Kaart.ani21 {
+    right: 600px;
+    bottom: 0px;
+    z-index: 21;
+  }
+
+  .Kaart.ani22{
+    right: 670px;
+    bottom: 0;
+    z-index: 20;
+  }
+
+  .Kaart.ani23{
+    right: 740px;
+    bottom: 0;
+    z-index: 19;
+  }
+
+  .Kaart.ani24{
+    right: 810px;
+    bottom: 0;
+    z-index: 18;
+  }
+
+  .Kaart.ani25{
+    right: 880px;
+    bottom: 0;
+    z-index: 17;
+  }
+
+  .Kaart.ani26{
+    right: 0;
+    bottom: 0;
+    z-index: 30;
+  }
+
+  .Kaart.ani27{
+    right: 110px;
+    bottom: 0;
+    z-index: 29;
+  }
+  
+  .Kaart.ani28{
+    right: 180px;
+    bottom: 0;
+    z-index: 28;
+  }
+
+  .Kaart.ani29{
+    right: 250px;
+    bottom: 0;
+    z-index: 27;
+  }
+
+  .Kaart.ani30{
+    right: 320px;
+    bottom: 0;
+    z-index: 26;
+  }
+
+  .Kaart.ani31{
+    right: 390px;
+    bottom: 0;
+    z-index: 25;
+  }
+
+  .Kaart.ani32{
+    right: 460px;
+    bottom: 0;
+    z-index: 24;
+  }
+
+  .Kaart.ani33{
+    right: 530px;
+    bottom: 0;
+    z-index: 23;
+  }
+
+  .Kaart.ani34{
+    right: 600px;
+    bottom: 0;
+    z-index: 22;
+  }
+
+  .Kaart.ani35{
+    right: 670px;
+    bottom: 0;
+    z-index: 21;
+  }
+
+  .Kaart.ani36{
+    right: 740px;
+    bottom: 0;
+    z-index: 20;
+  }
+
+  .Kaart.ani37{
+    right: 810px;
+    bottom: 0;
+    z-index: 19;
+  }
+
+  .Kaart.ani38{
+    right: 880px;
+    bottom: 0;
+    z-index: 18;
+  }
+
+  .Kaart.ani39{
+    right: 0px;
+    bottom: 0;
+    z-index: 30;
+  }
+
+  .Kaart.ani40{
+    right: 110px;
+    bottom: 0;
+    z-index: 29;
+  }
+
+  .Kaart.ani41{
+    right: 180px;
+    bottom: 0;
+    z-index: 28;
+  }
+
+  .Kaart.ani42{
+    right: 250px;
+    bottom: 0;
+    z-index: 27;
+  }
+
+  .Kaart.ani43{
+    right: 320px;
+    bottom: 0;
+    z-index: 26;
+  }
+
+  .Kaart.ani44{
+    right: 390px;
+    bottom: 0;
+    z-index: 25;
+  }
+
+  .Kaart.ani45{
+    right: 460px;
+    bottom: 0;
+    z-index: 24;
+  }
+
+  .Kaart.ani46{
+    right: 530px;
+    bottom: 0;
+    z-index: 23;
+  }
+
+  .Kaart.ani47{
+    right: 600px;
+    bottom: 0;
+    z-index: 22;
+  }
+
+  .Kaart.ani48{
+    right: 670px;
+    bottom: 0;
+    z-index: 21;
+  }
+
+  .Kaart.ani49{
+    right: 740px;
+    bottom: 0;
+    z-index: 20;
+  }
+
+  .Kaart.ani50{
+    right: 810px;
+    bottom: 0;
+    z-index: 19;
+  }
+
+  .Kaart.ani51{
+    right: 880px;
+    bottom: 0;
+    z-index: 18;
+  }
+
+
+.klaverenCard{
+    margin: 0px -40px;
+}
+
+.hartenCard{
+    margin: 0px -40px;
+}
+
+.schoppenCard{
+    margin: 0px -40px;
+}
+
+.ruitenCard{
+    margin: 0px -40px;
+}
+
+.ruiten{
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:-38px;
+    top:-44px;
+}
+
+.schoppen{
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:-38px;
+    top:-44px;
+}
+
+.harten {
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:-38px;
+    top:-44px;
+}
+
+.klaveren {
+    position:absolute; 
+    left:-38px;
+    top:-44px;
+    width: 16px;
+    height: 16px;
+}
+
+.aRuiten{
+    color: red;
+    position:absolute; 
+    left: 4px; 
+    top: -25px;
+}
+
+.aSchoppen{
+    position:absolute; 
+    left: 4px; 
+    top: -25px;
+}
+
+.aHarten {
+    color: red;
+    position:absolute; 
+    left: 4px; 
+    top: -25px;
+}
+
+.aKlaveren{
+    position:absolute; 
+    left:4px;
+    top:-25px;
+}
+
+.aRuitenUpSideDown{
+    display: inline-block;
+    margin: 1em;
+    transform: scale(-1, 1);
+    transform: scale(1, -1);
+    transform: rotate(180deg);
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:105px;
+    top:170px;
+    color: red;
+}
+
+.aSchoppenUpSideDown{
+    display: inline-block;
+    margin: 1em;
+    transform: scale(-1, 1);
+    transform: scale(1, -1);
+    transform: rotate(180deg);
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:105px;
+    top:170px
+}
+
+.aHartenUpSideDown {
+    display: inline-block;
+    margin: 1em;
+    transform: scale(-1, 1);
+    transform: scale(1, -1);
+    transform: rotate(180deg);
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:105px;
+    top:170px;
+    color: red;
+}
+
+.aKlaverenUpSideDown {
+    display: inline-block;
+    margin: 1em;
+    transform: scale(-1, 1);
+    transform: scale(1, -1);
+    transform: rotate(180deg);
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:105px;
+    top:170px;
+}
+
+
+
+.Kaart {
+    position:relative;
+    border-radius: 5%;
+    width: 147px;
+    height: 206px;
+    background-color: white;
+    box-shadow: 2px 2px 5px 3px rgba(152, 58, 58, 0.685);
+    transition: all .5s;
+}
+
+
+
+.ruitenUpSideDown{
+    display: inline-block;
+    margin: 1em;
+    transform: scale(-1, 1);
+    transform: scale(1, -1);
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:113px;
+    top:145px
+
+}
+
+
+
+.schoppenUpSideDown{
+    display: inline-block;
+    margin: 1em;
+    transform: scale(-1, 1);
+    transform: scale(1, -1);
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:113px;
+    top:145px;
+}
+
+
+
+.hartenUpSideDown {
+    display: inline-block;
+    margin: 1em;
+    transform: scale(-1, 1);
+    transform: scale(1, -1);
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:113px;
+    top:145px;
+}
+
+
+
+.klaverenUpSideDown {
+    display: inline-block;
+    margin: 1em;
+    transform: scale(-1, 1);
+    transform: scale(1, -1);
+    width: 16px;
+    height: 16px;
+    position:absolute; 
+    left:113px;
+    top:145px;
+}

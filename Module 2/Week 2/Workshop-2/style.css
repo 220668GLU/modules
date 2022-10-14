@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+}
+
+#PhotoTag{
+    font-size: 10px;
+}
+
+.recipe_details {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.7rem;
+	color: white;
+	margin-top: 5px;
+	margin-bottom: px;
+}
+
+.recipe_details ul {
+	border: 1px solid brown;
+	margin-top: 20px;
+	padding-left: 10px;
+	display: flex;
+	align-items: left;
+	flex-direction: column;
+	list-style-type: none;
+}
+
+.tbg{
+	background-color: brown;
+	margin-bottom: 5px;
+	margin-top: 5px
+}
+
+.recipe_details > ul > li > p {
+	padding: 0;
+}
+
+.details {
+	font-size: 0.6rem;
+	color: rgba(0, 0, 0, 0.7);
+}
+
+
+.recipe-card {
+	position: absolute;
+	width: 400px;
+	top: 5%;
+	left: 10%;
+	transform: translate(-10%, 0);
+	object-fit: contain;
+	box-shadow: -20px 60px 120px rgba(0, 0, 0, 0.3);
+	background: #fff;
+	border-radius: 3em;
+}
+
+.inner-recipe-card {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: center;
+	padding: 3em;
+}
+
+.tomatoPhoto {
+    width: 350px;
+}
+
+body{
+	color: white;
+	background-color: rgb(25,25,25);
+}
+
+.description{
+	color: white;
+
+}
+
