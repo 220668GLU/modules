@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+
+    font-family: dobra;
+
+    src: url("../fonts/Dobra-Medium.ttf");
+
+}
+
+@font-face {
+
+    font-family: open-sans;
+
+    src: url("../fonts/open-sans.ttf");
+
+}
+
+#navbar {
+    width: 100vw;
+    height: 51.5px;
+    background-color: #0090e3;
+}
+
+.header__logo-image {
+    height: 51.5px;
+    padding-left: 25px;
+}
+
+.titel {
+    color: #285DAB;
+    font-family: dobra;
+    font-size: 28px;
+    padding-left: 150px;
+}
+
+#titelcontact {
+    color: #ffffff;
+    font-family: dobra;
+    font-size: 28px;
+    padding-left: 59px;
+    position: absolute;
+}
+
+#beschrijvingcontact {
+    padding-top: 30px;
+    color: #ffffffde;
+    font-size: 18px;
+    padding-left: 59px;
+    position: absolute;
+}
+
+#titelservice {
+    color: #ffffff;
+    font-family: dobra;
+    font-size: 28px;
+    padding-left: 59px;
+    position: absolute;
+}
+
+#beschrijvingservice {
+    padding-top: 30px;
+    color: #ffffffde;
+    font-size: 18px;
+    padding-left: 59px;
+    position: absolute;
+}
+
+.beschrijving {
+    color: #0090E3;
+    font-family: open-sans;
+    font-size: 18px;
+    padding-left: 150px;
+}
+
+.footericon {
+    padding-right: 13px;
+}
+
+#ks{
+    color: #ffffff;
+    font-family: dobra;
+    font-size: 19px;
+    position: absolute; 
+}
+
+#topfooter {
+    background-color: #0090e3;
+    width: 100vw;
+    height: 280px;
+}
+
+.container{
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-bottom: 10px;
+}
+
+#bottomfooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#twwb {
+    width: 32px;
+    height: 32px;
+}
+
+#ideal {
+    width: 34px;
+    height: 34px;
+}
+
+#mastercard {
+    width: 43px;
+    height: 32.7px;
+}
+
+#visa {
+    width: 56px;
+    height: 18.12px;
+}
+
+#paypal {
+    width: 57px;
+    height: 21.24px;
+}
+
+#postnl {
+    width: 32px;
+    height: 32px;
+}
+
+#contactdiv {
+    position: absolute;
+    width: 50%;
+    padding-top: 25.7px;
+    padding-left: 150px;
+}
+
+#contacticon {
+    width: 45px;
+    height: 45px;
+}
+
+#servicediv {
+    position: absolute;
+    width: 50%;
+    padding-top: 25.7px;
+    margin-left: 750px;
+}
+
+#first-row {
+    display: flex;
+    padding-top: 10px;
+}
+
+.check{
+    height: 23px;
+    width: 23px;
+    position: absolute;
+}
+
+#text{
+    padding-left: 32px;
+    padding-top: 2px;
+    color: white;
+    font-family: open-sans;
+}
+
+#kstext{
+    padding-top: 10px;
+    color: white;
+    font-family: open-sans;
+}
+
+.bluequestionmark{
+    width: 15px;
+    top: 2px;
+    right: 2px;
+    position: relative;
+}
+
+.flex{
+    padding-left: 58px;
+    padding-top: 10px;
+}
+
+#land {
+    color: #2394da;
+  }
+  
+  #darker {
+    color: #268dcc;
+    font-weight: bold;
+  }
+  
+  #landPlek {
+    margin: 0px -66px;
+  }
+  
+  .array a {
+    margin: 0px 350px;
+    color: #929292;
+  }
+  
+  .array p {
+    float: left;
+    margin-right: 25px;
+    text-align: right;
+  }
+  
+  .array {
+    margin-top: 13px;
+  }
+  
+  form p {
+    width: 324px;
+  }
+  
+  #insertion {
+    width: 60px;
+  }
+  
+  #postalCode {
+    width: 60px;
+  }
+  
+  #houseNumber {
+    width: 40px;
+  }
+  
+  #houseLetter {
+    width: 40px;
+  }
+  
+  #email {
+    width: 300px;
+  }
+  
+  #color {
+    width: 160px;
+  }
+  
+  #greyBar {
+    background-color: #f3f3f3;
+    width: 800px;
+    height: 60px;
+    margin: 30px 80px;
+  }
+  
+  #submit {
+    width: 130px;
+    height: 50px;
+    background-color: #00ba00;
+    float: right;
+    color: white;
+    font-size: 24px;
+    margin: 5px 5px;
+    border-radius: 5px;
+    border: 0px;
+  }
+
